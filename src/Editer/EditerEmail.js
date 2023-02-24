@@ -79,7 +79,7 @@ const TextEmail = () => {
                                 <div className="form-group">
                                     <p>Upload file <span>*</span></p>
                                     <span className="icon-case"><i className="fas fa-file"></i></span>
-                                    <input type="file" name="file" onChange={handleChange} onBlur={handleBlur} value={values.file} />
+                                    <input type="text" name="file" onChange={handleChange} onBlur={handleBlur} value={values.file} />
                                     {errors.file && touched.file && <div className="error">{errors.file}</div>}
                                 </div>
                                 <div className="form-group">
